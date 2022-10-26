@@ -1,1 +1,60 @@
 @use "../util" as u;
+
+.textDecoration {
+  text-decoration: none;
+}
+
+// HEADER ADN FOOTER BTN //
+.header_btn,
+.footer_btn {
+  font-weight: 700;
+  font-size: u.rem(16);
+  color: var(--White);
+}
+
+// MAIN START//
+.introduction_info-title {
+  font-weight: 800;
+  font-size: u.rem(40);
+  color: var(--darkBlue);
+  line-height: u.rem(50);
+}
+
+.introduction_info-paragraph {
+  font-weight: 500;
+  font-size: u.rem(16);
+  color: var(--Grey);
+  line-height: u.rem(26);
+}
+
+.introduction_info-btn {
+  font-weight: 700;
+  font-size: u.rem(16);
+  color: var(--White);
+}
+
+.courses_check-out {
+  font-weight: 800;
+  font-size: u.rem(24);
+  line-height: u.rem(32);
+  color: var(--White);
+}
+
+.courses_info-title {
+  font-weight: 800;
+  font-size: u.rem(20);
+  color: var(--darkBlue);
+}
+
+.courses_info-paragraph {
+  font-weight: 500;
+  font-size: u.rem(16);
+  color: var(--Grey);
+  line-height: u.rem(26);
+}
+
+.courses_info-btn {
+  font-weight: 700;
+  font-size: u.rem(18);
+  color: var(--neonPink);
+}

@@ -1,11 +1,10 @@
-@use '../util' as u;
+@use "../util" as u;
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
 
 /* Remove default margin */
 body,
@@ -43,6 +42,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   margin: 0 auto;
+  font-family: u.$fontPlusJakartaSans;
 }
 
 /* A elements that don't have a class get default styles */
@@ -58,11 +58,9 @@ select {
   font: inherit;
 }
 
-img{
+img {
   object-fit: contain;
 }
-
-
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
